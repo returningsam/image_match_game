@@ -7,4 +7,5 @@ In this simple game, a list of words are displayed, along with an image. The obj
 - One of the images is chosen and shown to the user.
 ----------
 See this project live [**here**](https://imagematch-pekbptfwaw.now.sh)
+
 Hosted with [Zeit](https://zeit.co/)
