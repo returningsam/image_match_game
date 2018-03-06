@@ -1,0 +1,195 @@
+/*******************************************************************************
+****************************** General *****************************************
+*******************************************************************************/
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.center {
+  justify-content: center;
+}
+
+.space_between {
+  justify-content: space-between;
+}
+
+.space_around {
+  justify-content: space-around;
+}
+
+/*******************************************************************************
+****************************** Header ******************************************
+*******************************************************************************/
+
+header {
+  height: 10%;
+  width: 90%;
+  text-align: center;
+  padding: 0 5%;
+}
+
+/*******************************************************************************
+****************************** Main ********************************************
+*******************************************************************************/
+
+main {
+  height: 80%;
+  width: 100%;
+}
+
+.words {
+  height: 100%;
+  width: 50%;
+  background-color: lightgrey;
+  flex-wrap: wrap;
+}
+
+.word_cont {
+  width: 100%;
+  height: auto;
+}
+
+.word_cont {
+  heightwidth: 100%;
+  width: auto;
+}
+
+.image_cont {
+  height: 100%;
+  width: 50%;
+  background-color: darkgrey;
+}
+
+.image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.word_button {
+  height: auto;
+  width: auto;
+  background-color: rgb(70, 70, 70);
+  color: white;
+  border-radius: 10px;
+  transition: background-color 0.2s;
+  text-align: center;
+  padding: 30px 50px;
+  margin: 0 25px;
+}
+
+.word_button:hover {
+  height: auto;
+  width: auto;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  padding: 30px 50px;
+  margin: 0 25px;
+}
+
+.word_button_wrong {
+  height: auto;
+  width: auto;
+  background-color: rgb(215, 62, 62);
+  color: white;
+  border-radius: 10px;
+  transition: background-color 0.2s;
+  padding: 30px 50px;
+  margin: 0 25px;
+}
+
+.word_button_right {
+  height: auto;
+  width: auto;
+  background-color: rgb(38, 170, 47);
+  color: white;
+  border-radius: 10px;
+  transition: background-color 0.2s;
+  padding: 30px 50px;
+  margin: 0 25px;
+}
+
+/*******************************************************************************
+****************************** Footer ******************************************
+*******************************************************************************/
+
+footer  {
+  height: 10%;
+  width: 100%;
+  background-color: rgb(70, 70, 70);
+  color: white;
+  transition: background-color 0.2s;
+  text-align: center;
+}
+
+footer:hover {
+  background-color: rgb(50, 50, 50);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+/*******************************************************************************
+****************************** Footer ******************************************
+*******************************************************************************/
+
+.loader {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 10%;
+  left: 0;
+  height: 80%;
+  width: 100%;
+  background-color: lightgrey;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.4s;
+}
+
+.loading_text {
+  z-index: 10;
+}
+
+.loader p {
+  z-index: 10;
+}
+
+.loading_ind {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: darkgrey;
+  transition: width 0.3s;
+  z-index: 0;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Word Image Match</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="chance.min.js" charset="utf-8"></script>
+    <script src="main.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <header class="flex column center">
+      <p>Choose the keyword(s) used to search for the image.</p>
+    </header>
+    <main id="main" class="flex row">
+      <div id="words" class="words flex column space_around">
+
+      </div>
+      <div id="image_cont" class="image_cont flex column center">
+        <div id="image" class="image flex row center"></div>
+      </div>
+    </main>
+    <footer id="button" class="flex column center">
+      <p id="button_text">Skip</p>
+    </footer>
+    <div class="loader" id="loader">
+      <div class="loading_text">
+        <p>Loading new game...</p>
+      </div>
+      <div class="loading_ind" id="loading_ind"></div>
+    </div>
+  </body>
+</html>
