@@ -260,7 +260,5 @@ function resize() {
   }
 }
 
-document.getElementById('id')
-
 window.onload = init;
 window.onresize = resize;
